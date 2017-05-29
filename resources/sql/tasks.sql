@@ -1,0 +1,19 @@
+CREATE TABLE IF NOT EXISTS tasks (
+  id INT NOT NULL AUTO_INCREMENT,
+  username VARCHAR(100) NOT NULL,
+  email VARCHAR(100) NOT NULL,
+  content TEXT,
+  image_path VARCHAR(100),
+  completed TINYINT(1) DEFAULT 0,
+  PRIMARY KEY (id)
+);
+
+CREATE TABLE IF NOT EXISTS users (
+  id INT NOT NULL AUTO_INCREMENT,
+  name VARCHAR(100) NOT NULL UNIQUE,
+  password VARCHAR(100) NOT NULL,
+  PRIMARY KEY (id)
+);
+
+INSERT INTO users (name, password)
+VALUES('admin', '$2y$10$3ONkgtHvkC.oJVl5Qn6my.LYH6WyPSt0C/3hD/.BgDAk7pKUQzeyW');

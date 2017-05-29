@@ -1,0 +1,12 @@
+node_modules
+vendor
+
+storage/images/*
+storage/logs/*
+resources/bower_components
+.idea
+
+public_html/client
+public_html/plugins
+public_html/server
+public_html/dayside.php

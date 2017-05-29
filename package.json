@@ -1,0 +1,16 @@
+{
+  "name": "task-manager",
+  "private": true,
+  "devDependencies": {
+    "gulp-clean-css": "^3.0.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "style-loader": "^0.17.0"
+  }
+}

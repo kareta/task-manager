@@ -1,0 +1,10 @@
+{
+  "autoload": {
+    "classmap": [
+      "app/"
+    ]
+  },
+  "require": {
+    "monolog/monolog": "^1.22"
+  }
+}
